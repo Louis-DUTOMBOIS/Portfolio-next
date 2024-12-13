@@ -1,21 +1,61 @@
+/* app/globals.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-geist-sans), sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header h1 {
+    color: #1a202c;
+    font-size: 3rem;
+    text-shadow: 2px 2px #ff6b6b;
+}
+
+header p {
+    color: #718096;
+    font-size: 1.5rem;
+}
+
+section h2 {
+    color: #2d3748;
+    font-size: 2.5rem;
+    border-bottom: 2px solid #ff6b6b;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+section ul li {
+    color: #4a5568;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+section div {
+    border: 1px solid #e2e8f0;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+section div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+section div h3 {
+    color: #2b6cb0;
+    font-size: 1.75rem;
+}
+
+section div p {
+    color: #4a5568;
+    font-size: 1.25rem;
+}
+
+section p {
+    color: #4a5568;
+    font-size: 1.25rem;
 }
