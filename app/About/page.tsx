@@ -1,30 +1,17 @@
-import React from "react";
+import React from 'react';
 
-const AboutPage = () => {
+const About = () => {
     return (
-        <div className="min-h-screen bg-gray-100 p-4">
-            <header className="text-center my-8">
-                <h1 className="text-4xl font-bold">About Me</h1>
-                <p className="text-xl mt-2">Get to know me better!</p>
-            </header>
-            <section className="my-8">
-                <h2 className="text-2xl font-semibold">Biography</h2>
-                <p className="mt-4 text-lg">
-                    I am Louis DUTOMBOIS, a passionate Full Stack Developer with expertise in JavaScript, React, TypeScript, Node.js, and CSS. I love creating web applications that are both functional and aesthetically pleasing.
-                </p>
-            </section>
-            <section className="my-8">
-                <h2 className="text-2xl font-semibold">Skills</h2>
-                <ul className="list-disc list-inside mt-4">
-                    <li>JavaScript</li>
-                    <li>React</li>
-                    <li>TypeScript</li>
-                    <li>Node.js</li>
-                    <li>CSS</li>
-                </ul>
-            </section>
-        </div>
+        <section id="about" className="bg-black text-white p-8">
+            <div className="container mx-auto flex flex-col md:flex-row items-center">
+                <img src="images/profilLouis2.png" alt="Profile" className="w-48 h-48 rounded-full mb-4 md:mb-0 md:mr-8" />
+                <div>
+                    <h2 className="text-3xl font-bold mb-4">A PROPOS DE MOI</h2>
+                    <p>Louis DUTOMBOIS, 19 ans, je suis étudiant à l'IUT de Lens, en BUT Informatique ainsi qu'un apprenti développeur Web. Durant ma formation, j'ai pu toucher et découvrir différents domaines comme la programmation, le développement web, les bases de données. Si vous souhaitez me contacter, vous le pouvez en passant par <a href="#contact" className="text-blue-400 hover:underline">LinkedIn, Github, ou par email</a>!</p>
+                </div>
+            </div>
+        </section>
     );
 };
 
-export default AboutPage;
+export default About;

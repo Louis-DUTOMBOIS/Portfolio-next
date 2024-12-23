@@ -4,23 +4,23 @@
 @tailwind utilities;
 
 body {
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #000000; /* Dark background */
+    color: #e2e8f0;
 }
 
 header h1 {
-    color: #1a202c;
+    color: #e2e8f0;
     font-size: 3rem;
     text-shadow: 2px 2px #ff6b6b;
 }
 
 header p {
-    color: #718096;
+    color: #a0aec0;
     font-size: 1.5rem;
 }
 
 section h2 {
-    color: #2d3748;
+    color: #e2e8f0;
     font-size: 2.5rem;
     border-bottom: 2px solid #ff6b6b;
     display: inline-block;
@@ -28,14 +28,14 @@ section h2 {
 }
 
 section ul li {
-    color: #4a5568;
+    color: #cbd5e0;
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
 }
 
 section div {
-    border: 1px solid #e2e8f0;
-    background-color: #fff;
+    border: 1px solid #4a5568;
+    background-color: #1a202c; /* Darker section background */
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
@@ -45,16 +45,16 @@ section div:hover {
 }
 
 section div h3 {
-    color: #2b6cb0;
+    color: #63b3ed;
     font-size: 1.75rem;
 }
 
 section div p {
-    color: #4a5568;
+    color: #cbd5e0;
     font-size: 1.25rem;
 }
 
 section p {
-    color: #4a5568;
+    color: #cbd5e0;
     font-size: 1.25rem;
 }
