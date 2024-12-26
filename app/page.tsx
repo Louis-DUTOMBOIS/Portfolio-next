@@ -1,5 +1,5 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 
 const HomePage = () => {
     return (
@@ -12,19 +12,19 @@ const HomePage = () => {
                 <h2 className="text-2xl font-semibold">
                     <Link href="/Hero/" className="text-blue-400 hover:underline">Hero</Link>
                 </h2>
-                <p className="mt-4">Louis DUTOMBOIS, Web Developpeur</p>
+                <p className="mt-4">Louis DUTOMBOIS, Web Développeur</p>
             </section>
             <section className="my-8">
                 <h2 className="text-2xl font-semibold">
                     <Link href="/About/" className="text-blue-400 hover:underline">About</Link>
                 </h2>
-                <p className="mt-4">Louis DUTOMBOIS, 19 ans, étudiant à l'IUT de Lens, en BUT Informatique et apprenti développeur Web.</p>
+                <p className="mt-4">Louis DUTOMBOIS, 19 ans, étudiant à l&apos;IUT de Lens, en BUT Informatique et apprenti développeur Web.</p>
             </section>
             <section className="my-8">
                 <h2 className="text-2xl font-semibold">
                     <Link href="/Experience/" className="text-blue-400 hover:underline">Experience</Link>
                 </h2>
-                <p className="mt-4">Formation en BUT Informatique à l'IUT de Lens, Baccalauréat avec spécialité Mathématiques et NSI, et diverses expériences professionnelles.</p>
+                <p className="mt-4">Formation en BUT Informatique à l&apos;IUT de Lens, Baccalauréat avec spécialité Mathématiques et NSI, et diverses expériences professionnelles.</p>
             </section>
             <section className="my-8">
                 <h2 className="text-2xl font-semibold">
@@ -50,7 +50,7 @@ const HomePage = () => {
                 <div className="mt-4">
                     <div className="bg-gray-800 p-4 rounded shadow-md mb-4">
                         <h3 className="text-xl font-bold">Roca</h3>
-                        <p className="mt-2">Site de lecture et de création d'histoire à choix, réalisé avec Laravel, HTML/CSS, SQL et PHP.</p>
+                        <p className="mt-2">Site de lecture et de création d&apos;histoire à choix, réalisé avec Laravel, HTML/CSS, SQL et PHP.</p>
                     </div>
                     <div className="bg-gray-800 p-4 rounded shadow-md mb-4">
                         <h3 className="text-xl font-bold">FlatCraft</h3>
@@ -66,7 +66,7 @@ const HomePage = () => {
                     </div>
                     <div className="bg-gray-800 p-4 rounded shadow-md mb-4">
                         <h3 className="text-xl font-bold">Toys Market</h3>
-                        <p className="mt-2">Projet affichant des jeux et leur description provenant d'une API, réalisé dans le cadre du cours de MSI.</p>
+                        <p className="mt-2">Projet affichant des jeux et leur description provenant d&apos;une API, réalisé dans le cadre du cours de MSI.</p>
                     </div>
                 </div>
             </section>

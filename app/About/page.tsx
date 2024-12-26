@@ -1,17 +1,14 @@
 import React from 'react';
+import Image from 'next/image';
 
-const About = () => {
+const AboutPage = () => {
     return (
-        <section id="about" className="bg-black text-white p-8">
-            <div className="container mx-auto flex flex-col md:flex-row items-center">
-                <img src="images/profilLouis2.png" alt="Profile" className="w-48 h-48 rounded-full mb-4 md:mb-0 md:mr-8" />
-                <div>
-                    <h2 className="text-3xl font-bold mb-4">A PROPOS DE MOI</h2>
-                    <p>Louis DUTOMBOIS, 19 ans, je suis étudiant à l'IUT de Lens, en BUT Informatique ainsi qu'un apprenti développeur Web. Durant ma formation, j'ai pu toucher et découvrir différents domaines comme la programmation, le développement web, les bases de données. Si vous souhaitez me contacter, vous le pouvez en passant par <a href="#contact" className="text-blue-400 hover:underline">LinkedIn, Github, ou par email</a>!</p>
-                </div>
-            </div>
-        </section>
+        <div>
+            <h1>About Me</h1>
+            <Image src="/path/to/image.jpg" alt="About Image" width={500} height={300} />
+            <p>Louis DUTOMBOIS, 19 ans, étudiant à l&apos;IUT de Lens, en BUT Informatique et apprenti développeur Web.</p>
+        </div>
     );
 };
 
-export default About;
+export default AboutPage;

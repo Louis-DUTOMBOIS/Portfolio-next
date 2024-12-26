@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 
 const ProjectsPage = () => {
     const projects = [
@@ -16,7 +17,7 @@ const ProjectsPage = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {projects.map((project, index) => (
                         <div key={index} className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
-                            <img src={project.image} alt={project.name} className="w-full h-48 object-cover rounded mb-4" />
+                            <Image src={project.image} alt={project.name} width={500} height={300} className="w-full h-48 object-cover rounded mb-4" />
                             <h3 className="text-xl font-bold">{project.name}</h3>
                             <p className="mt-2 text-gray-300">{project.description}</p>
                             <a href={project.url} className="text-blue-400 hover:underline mt-4 block">Learn more</a>
