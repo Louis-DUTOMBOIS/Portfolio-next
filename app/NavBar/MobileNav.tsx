@@ -18,9 +18,6 @@ const MobileNav = () => {
                     <Link href="/Experience/" aria-current="page" className="nav-link">Experience</Link>
                 </li>
                 <li>
-                    <Link href="/Hero/" aria-current="page" className="nav-link">Me</Link>
-                </li>
-                <li>
                     <Link href="/Skills/" aria-current="page" className="nav-link">Skills</Link>
                 </li>
             </ul>

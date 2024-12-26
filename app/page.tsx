@@ -64,10 +64,6 @@ const HomePage = () => {
                     </div>
                 </div>
             </section>
-            <section className="my-8 bg-gray-800 p-6 rounded-lg shadow-md">
-                <h2 className="text-2xl font-semibold">Contact</h2>
-                <p className="mt-4">Email: louis.dutombois@gmail.com</p>
-            </section>
         </div>
     );
 };

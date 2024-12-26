@@ -10,17 +10,17 @@ const Page = () => {
     ];
 
     return (
-        <section id="experience" className="bg-black text-white p-8">
+        <section className="relative bg-cover bg-center mb-14 z-10 flex flex-col items-center justify-center h-full text-white text-center">
+            <h2 className="text-3xl font-bold mb-8 text-violet-500 text-center">FORMATION/EXPERIENCE</h2>
             <div className="container mx-auto">
-                <h2 className="text-3xl font-bold mb-8">FORMATION/EXPERIENCE</h2>
-                {experiences.map((exp, index) => (
-                    <div key={index} className="mb-8">
-                        <h3 className="text-2xl font-semibold">{exp.name}</h3>
-                        <p className="text-xl">{exp.company} - {exp.duration}</p>
-                        <p>{exp.content}</p>
-                    </div>
-                ))}
-            </div>
+            {experiences.map((exp, index) => (
+                        <div key={index} className="bg-gray-800 p-4 rounded-lg shadow-md mb-8 border-l-4 border-violet">
+                            <h3 className="text-2xl font-semibold text-purple-700 ">{exp.name}</h3>
+                            <p className="text-l text-gray-500 ">{exp.company} - {exp.duration}</p>
+                            <p className="text-xl">{exp.content}</p>
+                        </div>
+                    ))}
+                </div>
         </section>
     );
 };
