@@ -1,4 +1,3 @@
-// Page.tsx
 import React from 'react';
 
 const Page = () => {
@@ -11,7 +10,7 @@ const Page = () => {
     ];
 
     return (
-        <section id="experience" className="bg-gray-900 text-white p-8">
+        <section id="experience" className="bg-black text-white p-8">
             <div className="container mx-auto">
                 <h2 className="text-3xl font-bold mb-8">FORMATION/EXPERIENCE</h2>
                 {experiences.map((exp, index) => (

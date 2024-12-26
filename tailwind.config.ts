@@ -7,7 +7,13 @@ export default {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-
+    extend: {
+      colors: {
+        violet: '#8A2BE2',
+        white: '#FFFFFF',
+        black: '#000000',
+      },
+    },
   },
   plugins: [],
 } satisfies Config;

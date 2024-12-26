@@ -1,34 +1,28 @@
-import React from 'react';
 import Link from 'next/link';
+import Page from "@/app/Hero/page";
 
 const HomePage = () => {
     return (
         <div className="min-h-screen bg-black p-4">
             <header className="text-center my-8">
-                <h1 className="text-4xl font-bold">Louis DUTOMBOIS</h1>
-                <p className="text-xl mt-2">Full Stack Developer</p>
             </header>
-            <section className="my-8">
+
+                <Page />
+            <section className="my-8 bg-gray-800 p-6 rounded-lg shadow-md">
                 <h2 className="text-2xl font-semibold">
-                    <Link href="/Hero/" className="text-blue-400 hover:underline">Hero</Link>
-                </h2>
-                <p className="mt-4">Louis DUTOMBOIS, Web Développeur</p>
-            </section>
-            <section className="my-8">
-                <h2 className="text-2xl font-semibold">
-                    <Link href="/About/" className="text-blue-400 hover:underline">About</Link>
+                    <Link href="/About/" className="text-violet hover:underline">About</Link>
                 </h2>
                 <p className="mt-4">Louis DUTOMBOIS, 19 ans, étudiant à l&apos;IUT de Lens, en BUT Informatique et apprenti développeur Web.</p>
             </section>
-            <section className="my-8">
+            <section className="my-8 bg-gray-800 p-6 rounded-lg shadow-md">
                 <h2 className="text-2xl font-semibold">
-                    <Link href="/Experience/" className="text-blue-400 hover:underline">Experience</Link>
+                    <Link href="/Experience/" className="text-violet hover:underline">Experience</Link>
                 </h2>
                 <p className="mt-4">Formation en BUT Informatique à l&apos;IUT de Lens, Baccalauréat avec spécialité Mathématiques et NSI, et diverses expériences professionnelles.</p>
             </section>
-            <section className="my-8">
+            <section className="my-8 bg-gray-800 p-6 rounded-lg shadow-md">
                 <h2 className="text-2xl font-semibold">
-                    <Link href="/Skills/" className="text-blue-400 hover:underline">Skills</Link>
+                    <Link href="/Skills/" className="text-violet hover:underline">Skills</Link>
                 </h2>
                 <ul className="list-disc list-inside mt-4">
                     <li>Java</li>
@@ -43,34 +37,34 @@ const HomePage = () => {
                     <li>Figma</li>
                 </ul>
             </section>
-            <section className="my-8">
+            <section className="my-8 bg-gray-800 p-6 rounded-lg shadow-md">
                 <h2 className="text-2xl font-semibold">
-                    <Link href="/Projects/" className="text-blue-400 hover:underline">Projects</Link>
+                    <Link href="/Projects/" className="text-violet hover:underline">Projects</Link>
                 </h2>
                 <div className="mt-4">
-                    <div className="bg-gray-800 p-4 rounded shadow-md mb-4">
+                    <div className="bg-gray-700 p-4 rounded-lg shadow-md mb-4">
                         <h3 className="text-xl font-bold">Roca</h3>
                         <p className="mt-2">Site de lecture et de création d&apos;histoire à choix, réalisé avec Laravel, HTML/CSS, SQL et PHP.</p>
                     </div>
-                    <div className="bg-gray-800 p-4 rounded shadow-md mb-4">
+                    <div className="bg-gray-700 p-4 rounded-lg shadow-md mb-4">
                         <h3 className="text-xl font-bold">FlatCraft</h3>
                         <p className="mt-2">Jeu 2D inspiré de Minecraft, réalisé en Java avec JavaFX.</p>
                     </div>
-                    <div className="bg-gray-800 p-4 rounded shadow-md mb-4">
+                    <div className="bg-gray-700 p-4 rounded-lg shadow-md mb-4">
                         <h3 className="text-xl font-bold">Pokedex</h3>
                         <p className="mt-2">Pokedex permettant de rechercher un pokemon, réalisé dans le cadre du cours de MSI.</p>
                     </div>
-                    <div className="bg-gray-800 p-4 rounded shadow-md mb-4">
+                    <div className="bg-gray-700 p-4 rounded-lg shadow-md mb-4">
                         <h3 className="text-xl font-bold">Raytracer</h3>
                         <p className="mt-2">Librairie générant des images avec raytracing, réalisée en Java.</p>
                     </div>
-                    <div className="bg-gray-800 p-4 rounded shadow-md mb-4">
+                    <div className="bg-gray-700 p-4 rounded-lg shadow-md mb-4">
                         <h3 className="text-xl font-bold">Toys Market</h3>
                         <p className="mt-2">Projet affichant des jeux et leur description provenant d&apos;une API, réalisé dans le cadre du cours de MSI.</p>
                     </div>
                 </div>
             </section>
-            <section className="my-8">
+            <section className="my-8 bg-gray-800 p-6 rounded-lg shadow-md">
                 <h2 className="text-2xl font-semibold">Contact</h2>
                 <p className="mt-4">Email: louis.dutombois@gmail.com</p>
             </section>

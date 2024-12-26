@@ -1,4 +1,3 @@
-// Page.tsx
 import React from 'react';
 
 const Page = () => {
@@ -7,7 +6,7 @@ const Page = () => {
             <div className="absolute inset-0 bg-black opacity-50"></div>
             <div className="relative z-10 flex flex-col items-center justify-center h-full text-white text-center">
                 <h1 className="text-5xl font-bold mb-4">Louis DUTOMBOIS</h1>
-                <p className="text-2xl animate-pulse">Web Developpeur</p>
+                <p className="text-2xl text-violet animate-pulse">Web Developpeur</p>
             </div>
         </section>
     );
