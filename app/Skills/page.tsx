@@ -3,12 +3,25 @@ import React from 'react';
 const SkillsPage = () => {
     const skills = [
         { name: 'Java', percentage: 75 },
-        { name: 'JavaFX / Scenebuilder', percentage: 65 },
-        { name: 'HTML/CSS', percentage: 80 },
+        { name: 'JavaFX', percentage: 65 },
+        { name: 'Scenebuilder', percentage: 65 },
+        { name: 'HTML', percentage: 80 },
+        { name: 'CSS', percentage: 80 },
         { name: 'PHP', percentage: 70 },
         { name: 'Laravel', percentage: 70 },
         { name: 'Python', percentage: 80 },
-        { name: 'SQL', percentage: 65 }
+        { name: 'SQL', percentage: 65 },
+        { name: 'JavaScript', percentage: 70 },
+        { name: 'TypeScript', percentage: 60 },
+        { name: 'Angular', percentage: 60 },
+        { name: 'Kotlin', percentage: 50 },
+        { name: 'Docker', percentage: 50 },
+        { name: 'Git', percentage: 70 },
+        { name: 'Bash', percentage: 65 },
+        { name: 'Spring', percentage: 60 },
+        { name: 'React', percentage: 60 },
+        { name: 'Français', percentage: 95 },
+        { name: 'Anglais', percentage: 70 }
     ];
 
     const circumference = 50 * 2 * Math.PI;

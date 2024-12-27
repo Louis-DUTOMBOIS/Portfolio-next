@@ -12,7 +12,7 @@ const HomePage = () => {
                 <h2 className="text-2xl font-semibold">
                     <Link href="/About/" className="text-violet hover:underline">About</Link>
                 </h2>
-                <p className="mt-4">Louis DUTOMBOIS, 19 ans, étudiant à l&apos;IUT de Lens, en BUT Informatique et apprenti développeur Web.</p>
+                <p className="mt-4">Louis DUTOMBOIS, 20 ans, étudiant à l&apos;IUT de Lens, en BUT Informatique et développeur Informatique.</p>
             </section>
             <section className="my-8 bg-gray-800 p-6 rounded-lg shadow-md">
                 <h2 className="text-2xl font-semibold">
@@ -35,6 +35,7 @@ const HomePage = () => {
                     <li>Git</li>
                     <li>Canva</li>
                     <li>Figma</li>
+                    <li>...</li>
                 </ul>
             </section>
             <section className="my-8 bg-gray-800 p-6 rounded-lg shadow-md">

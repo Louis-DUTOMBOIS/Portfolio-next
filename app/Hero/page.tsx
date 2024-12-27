@@ -8,7 +8,7 @@ const Page = () => {
             <div className="relative flex flex-col items-center justify-center h-full text-white text-center">
                 <Image src="/pp.png" alt="Profile Photo" width={300} height={200} className="rounded-full mb-10" />
                 <h1 className="text-5xl font-bold mb-4">Louis DUTOMBOIS</h1>
-                <p className="text-2xl text-violet animate-pulse">Web Developpeur</p>
+                <p className="text-2xl text-violet animate-pulse">Developpeur Informatique</p>
             </div>
         </section>
     );
