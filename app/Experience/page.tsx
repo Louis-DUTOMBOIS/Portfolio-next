@@ -2,11 +2,16 @@ import React from 'react';
 
 const Page = () => {
     const experiences = [
-        { name: 'BUT Informatique', company: 'IUT de Lens', duration: '2022 - Aujourd’hui', content: 'Formation informatique spécialisé dans le développement web.' },
-        { name: 'Stage en développement Web', company: 'Orange', duration: '10 semaines', content: 'Stage durant lequel j\'ai eu a réalisé un site marketing interne en PHP, JavaScript et HTML/CSS. Ce stage m\'a offert l\'opportunité de développer mes compétences, tant sur le plan technique qu\'en communication, ainsi que de collaborer efficacement en équipe sur un projet commun.' },
-        { name: 'Baccalauréat', company: 'Lycée Vauban à Aire-sur-la-Lys', duration: '2019 - 2022', content: 'Baccalauréat avec spécialité Mathématiques et Numérique et sciences informatiques (NSI) avec option mathématiques expertes' },
-        { name: 'Animateur en centre aéré', company: 'Aire sur la lys', duration: "2019 - Aujourd'hui", content: 'Être animateur en centre aéré durant mes vacances mon permis d\'apprendre ce que sont l\'esprit d\'équipe ainsi que la cohésion de groupe afin d\'arriver à un même objectif. Cela m\'a aussi permis de développer ma créativité.' },
-        { name: 'Manoeuvre en Couverture/Zinguerie', company: 'Aire sur la lys', duration: 'Juillet 2019 - Août 2019', content: 'Travailler dans une entreprise de Couverture/Zinguerie m\'a permis de développer une détermination et une capacité à travailler dans n\'importe quelle condition hors du commun, car le métier de couvreur est un métier très dur physiquement.' }
+        { name: 'BUT Informatique', company: 'IUT de Lens', duration: '2022 - Aujourd’hui', content: 'Formation informatique spécialisée dans le développement web.' },
+        { name: 'Stage en développement Web', company: 'Orange', duration: '10 semaines', content: 'Stage durant lequel j\'ai eu à réaliser un site marketing interne en PHP, JavaScript et HTML/CSS. Ce stage m\'a offert l\'opportunité de développer mes compétences, tant sur le plan technique qu\'en communication, ainsi que de collaborer efficacement en équipe sur un projet commun.' },
+        { name: 'Baccalauréat', company: 'Lycée Vauban à Aire-sur-la-Lys', duration: '2019 - 2022', content: 'Baccalauréat avec spécialités Mathématiques et Numérique et sciences informatiques (NSI) avec option mathématiques expertes' },
+        { name: 'Animateur en centre aéré', company: 'Aire sur la lys', duration: "2019 - Aujourd'hui", content: 'Être animateur en centre aéré durant mes vacances m\'a permis d\'apprendre ce qu\'est l\'esprit d\'équipe ainsi que la cohésion de groupe afin d\'arriver à un même objectif. Cela m\'a aussi permis de développer ma créativité.' },
+        {
+            name: 'Manœuvre en Couverture/Zinguerie',
+            company: 'Entreprise locale à Aire-sur-la-Lys',
+            duration: 'Juillet 2019 - Août 2019',
+            content: 'Lors de cette expérience, j\'ai participé activement à des travaux de couverture et de zinguerie, découvrant ainsi les exigences du travail manuel et les contraintes des métiers du bâtiment. J\'ai appris à travailler en équipe dans un environnement exigeant et à respecter des consignes de sécurité strictes. Cette expérience m\'a offert une première immersion dans le monde professionnel, développant ma rigueur, mon endurance et ma capacité à m\'adapter à des tâches variées.'
+        }
     ];
 
     return (
