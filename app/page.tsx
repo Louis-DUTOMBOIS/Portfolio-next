@@ -18,7 +18,7 @@ const HomePage = () => {
                 <h2 className="text-2xl font-semibold">
                     <Link href="/Experience/" className="text-violet hover:underline">Experience</Link>
                 </h2>
-                <p className="mt-4">Formation en BUT Informatique à l&apos;IUT de Lens, Baccalauréat avec spécialité Mathématiques et NSI, et diverses expériences professionnelles.</p>
+                <p className="mt-4">Formation en BUT Informatique à l&apos;IUT de Lens, Baccalauréat avec spécialités Mathématiques et NSI, et diverses expériences professionnelles.</p>
             </section>
             <section className="my-8 bg-gray-800 p-6 rounded-lg shadow-md">
                 <h2 className="text-2xl font-semibold">
